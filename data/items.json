@@ -257,5 +257,41 @@
     "sources": [
       "L-1_f99d.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-17",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Cream satin cape maxi dress",
+    "note": "Cream satin high-neck cape maxi dress with black lace trim on the sleeves and hem.",
+    "image": "photos/2026-11-09/CO-1109-17.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-17.webp"
+    ],
+    "source": "M-1_2558.jpg",
+    "sources": [
+      "M-1_2558.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-18",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Pleated chiffon cape maxi dress",
+    "note": "Pleated chiffon cape maxi dress with a braided neckline and a braided tie belt. Colours: pink, black, camel, white.",
+    "image": "photos/2026-11-09/CO-1109-18-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-18-01.webp",
+      "photos/2026-11-09/CO-1109-18-02.webp",
+      "photos/2026-11-09/CO-1109-18-03.webp",
+      "photos/2026-11-09/CO-1109-18-04.webp"
+    ],
+    "source": "N-1_c882.jpg",
+    "sources": [
+      "N-1_c882.jpg",
+      "N-2_7771.jpg",
+      "N-3_e94d.jpg",
+      "N-4_efbd.jpg"
+    ]
   }
 ]
