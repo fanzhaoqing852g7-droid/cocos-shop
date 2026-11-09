@@ -293,5 +293,80 @@
       "N-3_e94d.jpg",
       "N-4_efbd.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-19",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Pale blue chiffon maxi dress",
+    "note": "Pale blue chiffon draped maxi dress with a mock neck, a ruched bodice and long pleated cape sleeves.",
+    "image": "photos/2026-11-09/CO-1109-19.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-19.webp"
+    ],
+    "source": "P-1_d62f.jpg",
+    "sources": [
+      "P-1_d62f.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-20",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Ivory sequin maxi dress",
+    "note": "Ivory sequin-embroidered sleeveless maxi dress with a pearl-beaded neckline.",
+    "image": "photos/2026-11-09/CO-1109-20.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-20.webp"
+    ],
+    "source": "Q-1_9e52.jpg",
+    "sources": [
+      "Q-1_9e52.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-21",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "White cutwork embroidered dress",
+    "note": "White cotton cutwork-embroidered dress with a sweetheart bodice, puff sleeves, tiered ruffles and a high-low hem.",
+    "image": "photos/2026-11-09/CO-1109-21.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-21.webp"
+    ],
+    "source": "R-1_d841.jpg",
+    "sources": [
+      "R-1_d841.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-22",
+    "date": "2026-11-09",
+    "category": "Sets",
+    "title": "Black polka-dot flower set",
+    "note": "Black shirt and elastic-waist wide-leg trousers set with polka-dot flower appliqués.",
+    "image": "photos/2026-11-09/CO-1109-22.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-22.webp"
+    ],
+    "source": "S-1_575b.jpg",
+    "sources": [
+      "S-1_575b.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-23",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "White floral midi sundress",
+    "note": "White floral-print midi sundress with a sweetheart bustier bodice and straps.",
+    "image": "photos/2026-11-09/CO-1109-23.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-23.webp"
+    ],
+    "source": "T-1_9dd9.jpg",
+    "sources": [
+      "T-1_9dd9.jpg"
+    ]
   }
 ]
