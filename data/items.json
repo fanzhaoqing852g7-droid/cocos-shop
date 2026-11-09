@@ -63,5 +63,43 @@
       "D-4_9cf5.jpg",
       "D-5_8e27.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-05",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Dusty pink midi dress",
+    "note": "Dusty pink midi dress with lime-green satin bow-tie shoulder straps, a lime satin bodice panel, a quilted dropped waist and a full gathered skirt. The back has a zip and an elastic band.",
+    "image": "photos/2026-11-09/CO-1109-05-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-05-01.webp",
+      "photos/2026-11-09/CO-1109-05-02.webp"
+    ],
+    "source": "E-1_6e29.jpg",
+    "sources": [
+      "E-1_6e29.jpg",
+      "E-2_e784.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-06",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Floral lace midi dress",
+    "note": "Floral lace midi dress with puff sleeves, a ruched pleated bodice and a V-shaped dropped waist. Colours: green, hot pink, black, white.",
+    "image": "photos/2026-11-09/CO-1109-06-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-06-01.webp",
+      "photos/2026-11-09/CO-1109-06-02.webp",
+      "photos/2026-11-09/CO-1109-06-03.webp",
+      "photos/2026-11-09/CO-1109-06-04.webp"
+    ],
+    "source": "F-1_1a86.jpg",
+    "sources": [
+      "F-1_1a86.jpg",
+      "F-2_d263.jpg",
+      "F-3_79ba.jpg",
+      "F-4_bc4a.jpg"
+    ]
   }
 ]
