@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coco's Shop — Guangzhou Fashion Sourcing</title>
+    <meta
+      name="description"
+      content="Daily Guangzhou fashion lookbook from Coco. Dresses, workwear, shoes, and bags, each with an item code. Ask on WhatsApp."
+    />
+    <meta name="theme-color" content="#f3efe6" />
+    <link rel="canonical" href="https://fanzhaoqing852g7-droid.github.io/cocos-shop/" />
+    <meta property="og:title" content="Coco's Shop" />
+    <meta property="og:description" content="Guangzhou Fashion Sourcing — daily lookbook" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fanzhaoqing852g7-droid.github.io/cocos-shop/" />
+    <meta
+      property="og:image"
+      content="https://fanzhaoqing852g7-droid.github.io/cocos-shop/photos/2026-11-09/CO-1109-01.webp"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,560;1,9..144,500&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#lookbook">Skip to looks</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-row">
+            <span class="mark" aria-hidden="true">C</span>
+            <div>
+              <p class="wordmark">Coco's Shop</p>
+              <p class="tagline">
+                Guangzhou Fashion Sourcing
+                <span id="look-count" class="look-count"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <a
+            class="btn btn-wa"
+            id="ask-link"
+            href="https://wa.me/8613602437622?text=Hi%20Coco%2C%20I%20saw%20today%27s%20lookbook%20at%20Coco%27s%20Shop%20and%20would%20like%20to%20ask%20about%20sourcing."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M5 6.5A3.5 3.5 0 0 1 8.5 3h7A3.5 3.5 0 0 1 19 6.5v6a3.5 3.5 0 0 1-3.5 3.5H11l-4.2 3v-3H8.5A3.5 3.5 0 0 1 5 12.5v-6Z"
+              />
+            </svg>
+            Ask on WhatsApp
+          </a>
+          <a class="btn btn-ghost" id="instagram-link" hidden target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>
+        </div>
+      </div>
+      <nav class="filters" id="filters" aria-label="Categories"></nav>
+    </header>
+
+    <main id="lookbook" class="wrap">
+      <p id="status" class="status" role="status">Loading today's looks…</p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p class="footer-name">Coco's Shop</p>
+        <p>Daily market picks from Guangzhou. Ask on WhatsApp for price, size, and quantity.</p>
+      </div>
+    </footer>
+
+    <div
+      id="viewer"
+      class="viewer"
+      hidden
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="viewer-code"
+      aria-describedby="viewer-help"
+    >
+      <p id="viewer-help" class="sr-only">Use the arrows or swipe to browse. Press escape to close.</p>
+      <button type="button" class="viewer-close" id="viewer-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+          <path fill="none" stroke="currentColor" stroke-width="1.8" d="M6 6l12 12M18 6L6 18" />
+        </svg>
+      </button>
+      <button type="button" class="viewer-nav prev" id="viewer-prev" aria-label="Previous look">
+        <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+          <path fill="none" stroke="currentColor" stroke-width="1.8" d="M14.5 5.5L8 12l6.5 6.5" />
+        </svg>
+      </button>
+      <button type="button" class="viewer-nav next" id="viewer-next" aria-label="Next look">
+        <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+          <path fill="none" stroke="currentColor" stroke-width="1.8" d="M9.5 5.5L16 12l-6.5 6.5" />
+        </svg>
+      </button>
+      <div class="viewer-stage" id="viewer-stage">
+        <img id="viewer-img" alt="" draggable="false" />
+      </div>
+      <div class="viewer-meta">
+        <p class="viewer-code" id="viewer-code" aria-live="polite"></p>
+        <p class="viewer-title" id="viewer-title"></p>
+        <p class="viewer-line" id="viewer-line"></p>
+        <p class="viewer-note" id="viewer-note" hidden></p>
+        <div class="viewer-row">
+          <a class="btn btn-wa" id="viewer-wa" target="_blank" rel="noopener noreferrer">Ask on WhatsApp</a>
+          <p class="viewer-count" id="viewer-count"></p>
+        </div>
+      </div>
+    </div>
+
+    <noscript>
+      <p class="noscript">
+        This lookbook needs JavaScript to show the grid.
+        <a href="https://wa.me/8613602437622">Ask on WhatsApp</a>
+        and Coco can send today's photos directly.
+      </p>
+    </noscript>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "shopName": "Coco's Shop",
+  "tagline": "Guangzhou Fashion Sourcing",
+  "buyerName": "Coco",
+  "whatsappNumber": "8613602437622",
+  "whatsappTemplate": "Hi Coco, I'm interested in {code} ({title}).",
+  "whatsappGeneral": "Hi Coco, I saw today's lookbook at Coco's Shop and would like to ask about sourcing.",
+  "instagram": "",
+  "showInstagram": false,
+  "categories": ["Dresses", "Workwear", "Shoes", "Bags", "Other"],
+  "codePrefix": "CO"
+}
