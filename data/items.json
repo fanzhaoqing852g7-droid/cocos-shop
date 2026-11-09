@@ -101,5 +101,22 @@
       "F-3_79ba.jpg",
       "F-4_bc4a.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-07",
+    "date": "2026-11-09",
+    "category": "Jumpsuits",
+    "title": "Striped wide-leg jumpsuit",
+    "note": "Blue and white striped wide-leg jumpsuit with spaghetti straps, a sweetheart bodice and a tie-bow open back.",
+    "image": "photos/2026-11-09/CO-1109-07-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-07-01.webp",
+      "photos/2026-11-09/CO-1109-07-02.webp"
+    ],
+    "source": "G-1_7715.jpg",
+    "sources": [
+      "G-1_7715.jpg",
+      "G-2_d75a.jpg"
+    ]
   }
 ]
