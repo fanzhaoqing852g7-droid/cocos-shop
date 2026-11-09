@@ -193,5 +193,69 @@
     "sources": [
       "H-5_e76a.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-13",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Ribbed knit mini dress",
+    "note": "Ribbed knit sleeveless A-line mini dress with a scoop neck and pearl and bead embellishment. Colours: black, yellow.",
+    "image": "photos/2026-11-09/CO-1109-13-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-13-01.webp",
+      "photos/2026-11-09/CO-1109-13-02.webp"
+    ],
+    "source": "I-1_7be4.jpg",
+    "sources": [
+      "I-1_7be4.jpg",
+      "I-2_034d.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-14",
+    "date": "2026-11-09",
+    "category": "Trousers",
+    "title": "Olive pinstripe culottes",
+    "note": "Olive green pinstripe wide-leg culottes with a matching belt and a contrast horizontal-stripe hem band.",
+    "image": "photos/2026-11-09/CO-1109-14.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-14.webp"
+    ],
+    "source": "J-1_e076.jpg",
+    "sources": [
+      "J-1_e076.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-15",
+    "date": "2026-11-09",
+    "category": "Skirts",
+    "title": "Paillette sequin midi skirt",
+    "note": "Large paillette sequin midi skirt with an elastic waistband. Colours: gold, black.",
+    "image": "photos/2026-11-09/CO-1109-15-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-15-01.webp",
+      "photos/2026-11-09/CO-1109-15-02.webp"
+    ],
+    "source": "K-1_bf99.jpg",
+    "sources": [
+      "K-1_bf99.jpg",
+      "K-2_891a.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-16",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Paisley pussy-bow midi dress",
+    "note": "Multicolour paisley print long-sleeve midi dress with a pussy-bow tie neck and a handkerchief hem.",
+    "image": "photos/2026-11-09/CO-1109-16.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-16.webp"
+    ],
+    "source": "L-1_f99d.jpg",
+    "sources": [
+      "L-1_f99d.jpg"
+    ]
   }
 ]
