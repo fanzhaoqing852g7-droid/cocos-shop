@@ -103,8 +103,18 @@ function text(tag, className, value) {
   return node;
 }
 
+function itemImages(item) {
+  if (Array.isArray(item.images) && item.images.length) return item.images;
+  return item.image ? [item.image] : [];
+}
+
+function categoriesInUse() {
+  const used = new Set(state.items.map((item) => item.category));
+  return (state.config.categories || []).filter((category) => used.has(category));
+}
+
 function renderFilters() {
-  const categories = ["All", ...(state.config.categories || [])];
+  const categories = ["All", ...categoriesInUse()];
   filtersNode.replaceChildren();
   for (const category of categories) {
     const count =
@@ -130,9 +140,20 @@ function renderFilters() {
   }
 }
 
+function buildSlides(items) {
+  const slides = [];
+  for (const item of items) {
+    const images = itemImages(item);
+    images.forEach((src, index) => {
+      slides.push({ item, src, frame: index + 1, frames: images.length });
+    });
+  }
+  return slides;
+}
+
 function renderGrid() {
   const items = visibleItems();
-  state.slides = items;
+  state.slides = buildSlides(items);
   const groups = groupByDate(items);
   lookbook.replaceChildren();
   if (!groups.length) {
@@ -165,8 +186,14 @@ function renderGrid() {
         loading: "lazy",
         decoding: "async",
       });
+      const frame = el("span", { class: "card-frame" }, [image]);
+      if (itemImages(item).length > 1) {
+        const count = el("span", { class: "photo-count" });
+        count.textContent = String(itemImages(item).length);
+        frame.append(count);
+      }
       button.append(
-        el("span", { class: "card-frame" }, [image]),
+        frame,
         el("span", { class: "card-meta" }, [
           text("span", "card-code", item.code),
           text("span", "card-cat", item.category || ""),
@@ -188,6 +215,8 @@ function categoryFromHash() {
 }
 
 function setCategory(category, { updateHash = true } = {}) {
+  const available = new Set(["All", ...categoriesInUse()]);
+  if (!available.has(category)) category = "All";
   state.category = category;
   if (updateHash) {
     const hash = category === "All" ? "" : `#${encodeURIComponent(category.toLowerCase())}`;
@@ -205,12 +234,13 @@ function showSlide(index) {
   const count = state.slides.length;
   if (!count) return;
   state.index = (index % count + count) % count;
-  const item = state.slides[state.index];
+  const slide = state.slides[state.index];
+  const item = slide.item;
   const day = formatDay(item.date);
   viewerImg.classList.add("is-fading");
   viewerImg.onload = () => viewerImg.classList.remove("is-fading");
   viewerImg.alt = `${item.title || "Look"}, ${item.code}`;
-  viewerImg.src = item.image;
+  viewerImg.src = slide.src;
   if (viewerImg.complete) viewerImg.classList.remove("is-fading");
   viewerCode.textContent = item.code;
   viewerTitle.textContent = item.title || item.category || "Look";
@@ -221,19 +251,19 @@ function showSlide(index) {
   viewerNote.textContent = item.note || "";
   const message = fillTemplate(state.config.whatsappTemplate, item);
   viewerWa.href = whatsappHref(message);
-  viewerCount.textContent = `${state.index + 1} / ${count}`;
+  viewerCount.textContent = `${slide.frame} / ${slide.frames}`;
   const single = count < 2;
   viewerPrev.hidden = single;
   viewerNext.hidden = single;
   const neighbor = state.slides[(state.index + 1) % count];
   if (neighbor) {
     const preload = new Image();
-    preload.src = neighbor.image;
+    preload.src = neighbor.src;
   }
 }
 
 function openViewer(code) {
-  const index = state.slides.findIndex((item) => item.code === code);
+  const index = state.slides.findIndex((slide) => slide.item.code === code);
   if (index < 0) return;
   state.lastFocus = document.activeElement;
   viewer.hidden = false;
@@ -336,15 +366,21 @@ async function init() {
   }
 
   state.items = items
-    .filter((item) => item && item.code && item.image && item.date)
-    .map((item) => ({
-      code: String(item.code),
-      date: String(item.date),
-      category: item.category || "Other",
-      title: item.title || "",
-      note: item.note || "",
-      image: String(item.image),
-    }))
+    .filter((item) => item && item.code && (item.image || (item.images && item.images.length)) && item.date)
+    .map((item) => {
+      const images = (Array.isArray(item.images) && item.images.length ? item.images : [item.image])
+        .filter(Boolean)
+        .map(String);
+      return {
+        code: String(item.code),
+        date: String(item.date),
+        category: item.category || "Other",
+        title: item.title || "",
+        note: item.note || "",
+        image: images[0],
+        images,
+      };
+    })
     .sort((a, b) => {
       if (a.date !== b.date) return a.date < b.date ? 1 : -1;
       return codeNumber(a.code) - codeNumber(b.code);

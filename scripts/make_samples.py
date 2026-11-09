@@ -589,10 +589,20 @@ def sample_record(spec: dict) -> dict:
 def main() -> int:
     items = load_items()
     sample_codes = {make_code("CO", spec["date"], spec["seq"]) for spec in SAMPLES}
-    kept = [item for item in items if item.get("code") not in sample_codes]
+    kept = []
+    for item in items:
+        code = item.get("code")
+        source = str(item.get("source", ""))
+        if code in sample_codes and source.startswith("sample:"):
+            continue
+        kept.append(item)
+    taken = {item.get("code") for item in kept}
     written: list[dict] = []
     for spec in SAMPLES:
         record = sample_record(spec)
+        if record["code"] in taken:
+            print(f"skip    {record['code']}  already used by a real look")
+            continue
         dest = PHOTOS / spec["date"] / f"{record['code']}.webp"
         image = paint(spec, record["code"])
         dest.parent.mkdir(parents=True, exist_ok=True)

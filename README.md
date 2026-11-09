@@ -43,7 +43,18 @@ Or add `manifest.json` beside the photos:
 
 Run the same command again and existing filenames for that date are skipped. Pass `--force` to rebuild them in place. `--dry-run` prints the codes without writing files.
 
-Codes use the month and day, then a sequence shared by the whole catalog: 9 November starts at `CO-1109-01`. A later 9 November continues at the next free number instead of reusing a code.
+Several photos of one look stay in one folder. The first filename is the cover, and the rest open in the viewer in that order:
+
+```bash
+python3 scripts/add_day.py 2026-11-09 ./incoming/lantern-set \
+  --one-item --code CO-1109-02 --category Sets \
+  --title "Embroidered lantern-sleeve set" \
+  --note "Embroidered lantern-sleeve shirt + wide-leg trousers set. Colours: black, burgundy brown"
+```
+
+`--code` keeps a number free. `CO-1109-01` is reserved for a skirt, so the first published looks are `CO-1109-02`, `CO-1109-03`, and `CO-1109-04`.
+
+Codes use the month and day, then the lowest free sequence for that day: 9 November can still use `CO-1109-01` while `02`–`04` are taken.
 
 ## Preview locally
 
@@ -59,7 +70,7 @@ Regenerate the built-in placeholder days (8 and 9 November 2026) with:
 python3 scripts/make_samples.py
 ```
 
-That rewrites only the sample codes. Looks you added with other codes stay in `data/items.json`.
+That refreshes placeholder codes only. A code already used by a real look is left alone.
 
 ## Where things live
 
@@ -76,17 +87,21 @@ An item looks like this:
 
 ```json
 {
-  "code": "CO-1109-01",
+  "code": "CO-1109-02",
   "date": "2026-11-09",
-  "category": "Dresses",
-  "title": "Ivory slip dress",
-  "note": "Sample · bias-cut satin",
-  "image": "photos/2026-11-09/CO-1109-01.webp",
-  "source": "dresses-ivory-slip.jpg"
+  "category": "Sets",
+  "title": "Embroidered lantern-sleeve set",
+  "note": "Embroidered lantern-sleeve shirt + wide-leg trousers set. Colours: black, burgundy brown",
+  "image": "photos/2026-11-09/CO-1109-02-01.webp",
+  "images": [
+    "photos/2026-11-09/CO-1109-02-01.webp",
+    "photos/2026-11-09/CO-1109-02-02.webp"
+  ],
+  "source": "B-1.jpg"
 }
 ```
 
-Categories are Dresses, Workwear, Shoes, Bags, and Other. Filters and the grid read them from `data/config.json`.
+Categories are Dresses, Skirts, Sets, Trousers, Workwear, Shoes, Bags, and Other. Filter chips only show categories that have looks. Empty ones stay in `data/config.json` and appear when a piece is added.
 
 ## WhatsApp and Instagram
 

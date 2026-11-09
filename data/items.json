@@ -1,101 +1,67 @@
 [
   {
-    "code": "CO-1109-01",
-    "date": "2026-11-09",
-    "category": "Dresses",
-    "title": "Ivory slip dress",
-    "note": "Sample · bias-cut satin",
-    "image": "photos/2026-11-09/CO-1109-01.webp",
-    "source": "sample:dress"
-  },
-  {
     "code": "CO-1109-02",
     "date": "2026-11-09",
-    "category": "Workwear",
-    "title": "Charcoal tailored blazer",
-    "note": "Sample · structured wool",
-    "image": "photos/2026-11-09/CO-1109-02.webp",
-    "source": "sample:blazer"
+    "category": "Sets",
+    "title": "Embroidered lantern-sleeve set",
+    "note": "Embroidered lantern-sleeve shirt + wide-leg trousers set. Colours: black, burgundy brown",
+    "image": "photos/2026-11-09/CO-1109-02-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-02-01.webp",
+      "photos/2026-11-09/CO-1109-02-02.webp",
+      "photos/2026-11-09/CO-1109-02-03.webp",
+      "photos/2026-11-09/CO-1109-02-04.webp",
+      "photos/2026-11-09/CO-1109-02-05.webp"
+    ],
+    "source": "B-1_3952.jpg",
+    "sources": [
+      "B-1_3952.jpg",
+      "B-2_ec07.jpg",
+      "B-3_b987.jpg",
+      "B-4_1944.jpg",
+      "B-5_bb4a.jpg"
+    ]
   },
   {
     "code": "CO-1109-03",
     "date": "2026-11-09",
-    "category": "Shoes",
-    "title": "Black leather loafers",
-    "note": "Sample · leather, ask for sizes",
-    "image": "photos/2026-11-09/CO-1109-03.webp",
-    "source": "sample:loafers"
+    "category": "Sets",
+    "title": "Big polka-dot set",
+    "note": "Big polka-dot shirt + elastic-waist midi skirt set. Colourways: brown, black & white, all black",
+    "image": "photos/2026-11-09/CO-1109-03-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-03-01.webp",
+      "photos/2026-11-09/CO-1109-03-02.webp",
+      "photos/2026-11-09/CO-1109-03-03.webp"
+    ],
+    "source": "C-1_8a68.jpg",
+    "sources": [
+      "C-1_8a68.jpg",
+      "C-2_6c6a.jpg",
+      "C-3_4c30.jpg"
+    ]
   },
   {
     "code": "CO-1109-04",
     "date": "2026-11-09",
-    "category": "Bags",
-    "title": "Structured camel tote",
-    "note": "Sample · boxed calf",
-    "image": "photos/2026-11-09/CO-1109-04.webp",
-    "source": "sample:tote"
-  },
-  {
-    "code": "CO-1109-05",
-    "date": "2026-11-09",
-    "category": "Dresses",
-    "title": "Wine satin midi",
-    "note": "Sample · evening weight",
-    "image": "photos/2026-11-09/CO-1109-05.webp",
-    "source": "sample:column"
-  },
-  {
-    "code": "CO-1109-06",
-    "date": "2026-11-09",
-    "category": "Other",
-    "title": "Ink silk scarf",
-    "note": "Sample · rolled edge",
-    "image": "photos/2026-11-09/CO-1109-06.webp",
-    "source": "sample:scarf"
-  },
-  {
-    "code": "CO-1108-01",
-    "date": "2026-11-08",
-    "category": "Workwear",
-    "title": "Cream wide-leg suit",
-    "note": "Sample · suiting, unlined jacket",
-    "image": "photos/2026-11-08/CO-1108-01.webp",
-    "source": "sample:suit"
-  },
-  {
-    "code": "CO-1108-02",
-    "date": "2026-11-08",
-    "category": "Shoes",
-    "title": "Nude slingback heels",
-    "note": "Sample · leather, 7 cm heel",
-    "image": "photos/2026-11-08/CO-1108-02.webp",
-    "source": "sample:heels"
-  },
-  {
-    "code": "CO-1108-03",
-    "date": "2026-11-08",
-    "category": "Bags",
-    "title": "Mini black shoulder bag",
-    "note": "Sample · adjustable strap",
-    "image": "photos/2026-11-08/CO-1108-03.webp",
-    "source": "sample:shoulder"
-  },
-  {
-    "code": "CO-1108-04",
-    "date": "2026-11-08",
-    "category": "Dresses",
-    "title": "Blush day dress",
-    "note": "Sample · short puff sleeve",
-    "image": "photos/2026-11-08/CO-1108-04.webp",
-    "source": "sample:day-dress"
-  },
-  {
-    "code": "CO-1108-05",
-    "date": "2026-11-08",
-    "category": "Other",
-    "title": "Gold hoop pair",
-    "note": "Sample · polished metal",
-    "image": "photos/2026-11-08/CO-1108-05.webp",
-    "source": "sample:hoops"
+    "category": "Trousers",
+    "title": "Polka-dot patchwork trousers",
+    "note": "Polka-dot patchwork wide-leg trousers, elastic waist, side pockets. Colours: black, charcoal grey",
+    "image": "photos/2026-11-09/CO-1109-04-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-04-01.webp",
+      "photos/2026-11-09/CO-1109-04-02.webp",
+      "photos/2026-11-09/CO-1109-04-03.webp",
+      "photos/2026-11-09/CO-1109-04-04.webp",
+      "photos/2026-11-09/CO-1109-04-05.webp"
+    ],
+    "source": "D-1_36a4.jpg",
+    "sources": [
+      "D-1_36a4.jpg",
+      "D-2_fb84.jpg",
+      "D-3_5d3a.jpg",
+      "D-4_9cf5.jpg",
+      "D-5_8e27.jpg"
+    ]
   }
 ]

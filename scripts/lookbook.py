@@ -115,18 +115,27 @@ def make_code(prefix: str, date_str: str, seq: int) -> str:
     return f"{prefix}-{stamp.month:02d}{stamp.day:02d}-{seq:0{width}d}"
 
 
-def next_sequence(items: list[dict], prefix: str, date_str: str) -> int:
+def used_sequences(items: list[dict], prefix: str, date_str: str) -> set[int]:
     stamp = parse_date(date_str)
     stem = f"{prefix}-{stamp.month:02d}{stamp.day:02d}-"
-    best = 0
+    used: set[int] = set()
     for item in items:
         code = str(item.get("code", ""))
         if not code.startswith(stem):
             continue
         tail = code[len(stem) :]
         if tail.isdigit():
-            best = max(best, int(tail))
-    return best + 1
+            used.add(int(tail))
+    return used
+
+
+def next_sequence(items: list[dict], prefix: str, date_str: str) -> int:
+    """Lowest unused sequence for that month and day, so a reserved code stays free."""
+    used = used_sequences(items, prefix, date_str)
+    seq = 1
+    while seq in used:
+        seq += 1
+    return seq
 
 
 def rel_path(path: Path) -> str:

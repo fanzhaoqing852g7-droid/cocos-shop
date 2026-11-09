@@ -11,6 +11,7 @@ Examples:
   python scripts/add_day.py 2026-11-10 ./incoming/2026-11-10
   python scripts/add_day.py 2026-11-10 ./incoming/2026-11-10 --category Dresses
   python scripts/add_day.py 2026-11-10 ./incoming/2026-11-10 --force
+  python scripts/add_day.py 2026-11-09 ./incoming/set --one-item --code CO-1109-02 --category Sets
 
 Name a file with its category to override the default:
   dresses-ivory-slip.jpg
@@ -116,6 +117,21 @@ def collect_images(src: Path) -> list[Path]:
     return sorted(files, key=lambda path: path.name.casefold())
 
 
+def photo_dest(day_dir: Path, code: str, index: int, total: int) -> Path:
+    if total == 1:
+        return day_dir / f"{code}.webp"
+    return day_dir / f"{code}-{index + 1:02d}.webp"
+
+
+def forced_code(value: str, prefix: str, date_str: str) -> str:
+    stamp = parse_date(date_str)
+    stem = f"{prefix}-{stamp.month:02d}{stamp.day:02d}-"
+    tail = value[len(stem) :] if value.startswith(stem) else ""
+    if not tail.isdigit() or int(tail) < 1:
+        raise SystemExit(f"--code must look like {stem}02, got {value!r}.")
+    return value
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Add a day's photos to the Coco's Shop lookbook."
@@ -127,6 +143,14 @@ def build_parser() -> argparse.ArgumentParser:
         default="Other",
         help="Category used when the filename does not name one (default: Other)",
     )
+    parser.add_argument(
+        "--one-item",
+        action="store_true",
+        help="Import every photo in the folder as one item, filename order, first file is the cover",
+    )
+    parser.add_argument("--code", help="Force the item code, such as CO-1109-02. Use with --one-item")
+    parser.add_argument("--title", default="", help="Title for a --one-item import")
+    parser.add_argument("--note", default="", help="Note for a --one-item import")
     parser.add_argument("--long-edge", type=int, default=1600)
     parser.add_argument("--quality", type=int, default=82)
     parser.add_argument(
@@ -140,6 +164,53 @@ def build_parser() -> argparse.ArgumentParser:
         help="Print the codes that would be written and leave files untouched",
     )
     return parser
+
+
+def import_one_item(args, images, items, date_str, day_dir, prefix, category) -> int:
+    filenames = [path.name for path in images]
+    if args.code:
+        code = forced_code(args.code, prefix, date_str)
+    else:
+        code = make_code(prefix, date_str, next_sequence(items, prefix, date_str))
+    title = args.title.strip() or category
+    note = args.note.strip()
+    existing = next((item for item in items if item.get("code") == code), None)
+    if existing and not args.force:
+        print(f"skip  {code}  already in the lookbook ({len(filenames)} photos not imported)")
+        print("Imported 0, skipped 1.")
+        return 0
+
+    paths = []
+    for index, image_path in enumerate(images):
+        dest = photo_dest(day_dir, code, index, len(images))
+        paths.append(rel_path(dest))
+        if args.dry_run:
+            role = "cover" if index == 0 else f"photo {index + 1}"
+            print(f"plan  {image_path.name}  ->  {paths[-1]}  {role}")
+            continue
+        width, height = prepare_photo(image_path, dest, args.long_edge, args.quality)
+        print(f"add   {code}  {paths[-1]}  {width}x{height}  {image_path.name}")
+
+    record = {
+        "code": code,
+        "date": date_str,
+        "category": category,
+        "title": title,
+        "note": note,
+        "image": paths[0],
+        "images": paths,
+        "source": filenames[0],
+        "sources": filenames,
+    }
+    if not args.dry_run:
+        if existing:
+            existing.clear()
+            existing.update(record)
+        else:
+            items.append(record)
+        save_items(items)
+    print(f"{'Planned' if args.dry_run else 'Imported'} 1 item, {len(images)} photos, skipped 0.")
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -172,6 +243,19 @@ def main(argv: list[str] | None = None) -> int:
     added = 0
     skipped = 0
     day_dir = PHOTOS / date_str
+
+    if args.one_item or args.code or args.title or args.note:
+        if not args.one_item:
+            raise SystemExit("--code, --title, and --note are used with --one-item.")
+        return import_one_item(
+            args,
+            images,
+            items,
+            date_str,
+            day_dir,
+            prefix,
+            default_category,
+        )
 
     for image_path in images:
         meta = manifest.get(image_path.name, {})
