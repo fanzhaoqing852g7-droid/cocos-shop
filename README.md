@@ -101,7 +101,7 @@ An item looks like this:
 }
 ```
 
-Categories are Dresses, Jumpsuits, Skirts, Sets, Trousers, Workwear, Shoes, Bags, and Other. Filter chips only show categories that have looks. Empty ones stay in `data/config.json` and appear when a piece is added.
+Categories are Dresses, Jumpsuits, Shirts, Skirts, Sets, Trousers, Workwear, Shoes, Bags, and Other. Filter chips only show categories that have looks. Empty ones stay in `data/config.json` and appear when a piece is added.
 
 ## WhatsApp and Instagram
 

@@ -118,5 +118,80 @@
       "G-1_7715.jpg",
       "G-2_d75a.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-08",
+    "date": "2026-11-09",
+    "category": "Shirts",
+    "title": "White stand-collar oversized shirt",
+    "note": "White cotton poplin stand-collar oversized shirt with a half placket and an asymmetric handkerchief hem.",
+    "image": "photos/2026-11-09/CO-1109-08.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-08.webp"
+    ],
+    "source": "H-1_2b80.jpg",
+    "sources": [
+      "H-1_2b80.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-09",
+    "date": "2026-11-09",
+    "category": "Shirts",
+    "title": "White oversized A-line shirt",
+    "note": "White cotton poplin oversized A-line shirt with a classic collar, black buttons and a panelled flared hem.",
+    "image": "photos/2026-11-09/CO-1109-09.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-09.webp"
+    ],
+    "source": "H-2_2397.jpg",
+    "sources": [
+      "H-2_2397.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-10",
+    "date": "2026-11-09",
+    "category": "Shirts",
+    "title": "White longline shirt dress",
+    "note": "White cotton poplin longline shirt dress with a collarless neck, an asymmetric button front and a draped wrap tie waist.",
+    "image": "photos/2026-11-09/CO-1109-10.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-10.webp"
+    ],
+    "source": "H-3_568e.jpg",
+    "sources": [
+      "H-3_568e.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-11",
+    "date": "2026-11-09",
+    "category": "Shirts",
+    "title": "White oversized pleated-front shirt",
+    "note": "White cotton poplin oversized pleated-front shirt with a classic collar, black buttons and drawstring puff cuffs.",
+    "image": "photos/2026-11-09/CO-1109-11.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-11.webp"
+    ],
+    "source": "H-4_6426.jpg",
+    "sources": [
+      "H-4_6426.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-12",
+    "date": "2026-11-09",
+    "category": "Shirts",
+    "title": "White longline shirt dress",
+    "note": "White cotton poplin longline shirt dress with a pointed collar, an asymmetric placket and a chest pocket.",
+    "image": "photos/2026-11-09/CO-1109-12.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-12.webp"
+    ],
+    "source": "H-5_e76a.jpg",
+    "sources": [
+      "H-5_e76a.jpg"
+    ]
   }
 ]
