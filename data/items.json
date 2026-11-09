@@ -466,5 +466,54 @@
       "Z-1_72de.jpg",
       "Z-2_c4a4.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-30",
+    "date": "2026-11-09",
+    "category": "Trousers",
+    "title": "Mixed-print balloon trousers",
+    "note": "Red and white mixed-print balloon trousers, stripes on one leg and polka dots on the other, with an elastic waist and contrast cuffs.",
+    "image": "photos/2026-11-09/CO-1109-30.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-30.webp"
+    ],
+    "source": "AA-1_82cf.jpg",
+    "sources": [
+      "AA-1_82cf.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-31",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "V-neck halter lace midi",
+    "note": "V-neck halter lace midi dress with a dropped waist and a full skirt. Colours: cream, mint green.",
+    "image": "photos/2026-11-09/CO-1109-31-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-31-01.webp",
+      "photos/2026-11-09/CO-1109-31-02.webp"
+    ],
+    "source": "AB-1_e6db.jpg",
+    "sources": [
+      "AB-1_e6db.jpg",
+      "AB-2_32ba.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-32",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Ruched mesh maxi dress",
+    "note": "Ruched mesh sleeveless maxi dress with a mock neck and a fluid skirt. Colours: burgundy, apricot.",
+    "image": "photos/2026-11-09/CO-1109-32-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-32-01.webp",
+      "photos/2026-11-09/CO-1109-32-02.webp"
+    ],
+    "source": "AC-1_86e4.jpg",
+    "sources": [
+      "AC-1_86e4.jpg",
+      "AC-2_30a8.jpg"
+    ]
   }
 ]
