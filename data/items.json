@@ -404,5 +404,67 @@
       "V-1_6be5.jpg",
       "V-2_e43f.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-26",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Blush and ivory lace maxi slip",
+    "note": "Blush pink and ivory tiered lace maxi slip dress.",
+    "image": "photos/2026-11-09/CO-1109-26.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-26.webp"
+    ],
+    "source": "W-1_33b3.jpg",
+    "sources": [
+      "W-1_33b3.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-27",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Metallic striped skater dress",
+    "note": "White and silver metallic striped knit sleeveless skater dress.",
+    "image": "photos/2026-11-09/CO-1109-27.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-27.webp"
+    ],
+    "source": "X-1_3dad.jpg",
+    "sources": [
+      "X-1_3dad.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-28",
+    "date": "2026-11-09",
+    "category": "Tops",
+    "title": "Mustard pleated batwing top",
+    "note": "Mustard green pleated batwing-sleeve top with a boat neck.",
+    "image": "photos/2026-11-09/CO-1109-28.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-28.webp"
+    ],
+    "source": "Y-1_22ed.jpg",
+    "sources": [
+      "Y-1_22ed.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-29",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Velvet mini dress",
+    "note": "Velvet strapless-look mini dress with a notched neckline, a covered-button front, spaghetti straps and a full skirt. Colours: black, chocolate brown, burgundy, red.",
+    "image": "photos/2026-11-09/CO-1109-29-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-29-01.webp",
+      "photos/2026-11-09/CO-1109-29-02.webp"
+    ],
+    "source": "Z-1_72de.jpg",
+    "sources": [
+      "Z-1_72de.jpg",
+      "Z-2_c4a4.jpg"
+    ]
   }
 ]
