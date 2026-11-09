@@ -368,5 +368,41 @@
     "sources": [
       "T-1_9dd9.jpg"
     ]
+  },
+  {
+    "code": "CO-1109-24",
+    "date": "2026-11-09",
+    "category": "Skirts",
+    "title": "Tulle ribbon midi skirt",
+    "note": "Tulle midi skirt with layered satin ribbon tabs and an elastic waistband. Colours: red, black, cream.",
+    "image": "photos/2026-11-09/CO-1109-24-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-24-01.webp",
+      "photos/2026-11-09/CO-1109-24-02.webp",
+      "photos/2026-11-09/CO-1109-24-03.webp"
+    ],
+    "source": "U-1_6e30.jpg",
+    "sources": [
+      "U-1_6e30.jpg",
+      "U-2_9707.jpg",
+      "U-3_923d.jpg"
+    ]
+  },
+  {
+    "code": "CO-1109-25",
+    "date": "2026-11-09",
+    "category": "Dresses",
+    "title": "Rhinestone fringe bodycon dress",
+    "note": "Rhinestone-beaded bustier bodycon dress with spaghetti straps and a long fringe skirt. Colours: red, black.",
+    "image": "photos/2026-11-09/CO-1109-25-01.webp",
+    "images": [
+      "photos/2026-11-09/CO-1109-25-01.webp",
+      "photos/2026-11-09/CO-1109-25-02.webp"
+    ],
+    "source": "V-1_6be5.jpg",
+    "sources": [
+      "V-1_6be5.jpg",
+      "V-2_e43f.jpg"
+    ]
   }
 ]
