@@ -1,5 +1,27 @@
 [
   {
+    "code": "CO-1117-01",
+    "date": "2026-11-17",
+    "category": "Dresses",
+    "title": "挂脖荷叶边欧根纱长裙",
+    "note": "挂脖荷叶边欧根纱长裙。Halter-neck organza maxi dress with cascading ruffle layers. 颜色：荧光绿 / 香槟色。",
+    "image": "photos/2026-11-17/CO-1117-01-01.webp",
+    "images": [
+      "photos/2026-11-17/CO-1117-01-01.webp",
+      "photos/2026-11-17/CO-1117-01-02.webp"
+    ],
+    "colors": [
+      "荧光绿",
+      "香槟色"
+    ],
+    "sizes": "M / L",
+    "source": "P-1_0fce.jpg",
+    "sources": [
+      "P-1_0fce.jpg",
+      "P-2_de4d.jpg"
+    ]
+  },
+  {
     "code": "CO-1116-01",
     "date": "2026-11-16",
     "category": "Sets",
