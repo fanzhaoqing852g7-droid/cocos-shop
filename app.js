@@ -177,7 +177,7 @@ function renderGrid() {
     for (const item of group.items) {
       const button = el("button", {
         type: "button",
-        class: "card",
+        class: "card-open",
         "data-code": item.code,
       });
       const image = el("img", {
@@ -201,7 +201,8 @@ function renderGrid() {
         ])
       );
       button.addEventListener("click", () => openViewer(item.code));
-      grid.append(button);
+      const article = el("article", { class: "card" }, [button, factsBlock(item, "card-facts")]);
+      grid.append(article);
     }
     lookbook.append(heading, grid);
   }
@@ -230,6 +231,39 @@ function setCategory(category, { updateHash = true } = {}) {
   if (!viewer.hidden) closeViewer();
 }
 
+const viewerFacts = document.querySelector("#viewer-facts");
+
+function colorsLabel(colors) {
+  return `颜色 / Colours：${colors.join(" / ")}`;
+}
+
+function sizesLabel(sizes) {
+  return sizes
+    ? `码数 / Sizes：${sizes}`
+    : "码数：WhatsApp 咨询 / Sizes: ask on WhatsApp";
+}
+
+function priceLink(item) {
+  const link = el("a", {
+    class: "fact-link",
+    href: whatsappHref(fillTemplate(state.config.whatsappTemplate, item)),
+    target: "_blank",
+    rel: "noopener noreferrer",
+  });
+  link.textContent = "价格：WhatsApp 咨询 / Price: ask on WhatsApp";
+  return link;
+}
+
+function factsBlock(item, className) {
+  const block = el("div", { class: className });
+  if (item.colors.length) block.append(text("p", "fact-colors", colorsLabel(item.colors)));
+  block.append(text("p", "fact-sizes", sizesLabel(item.sizes)));
+  const price = el("p", { class: "fact-price" });
+  price.append(priceLink(item));
+  block.append(price);
+  return block;
+}
+
 function showSlide(index) {
   const count = state.slides.length;
   if (!count) return;
@@ -249,6 +283,12 @@ function showSlide(index) {
     .join(" · ");
   viewerNote.hidden = !item.note;
   viewerNote.textContent = item.note || "";
+  viewerFacts.replaceChildren();
+  if (item.colors.length) viewerFacts.append(text("p", "fact-colors", colorsLabel(item.colors)));
+  viewerFacts.append(text("p", "fact-sizes", sizesLabel(item.sizes)));
+  const priceLine = el("p", { class: "fact-price" });
+  priceLine.append(priceLink(item));
+  viewerFacts.append(priceLine);
   const message = fillTemplate(state.config.whatsappTemplate, item);
   viewerWa.href = whatsappHref(message);
   viewerCount.textContent = `${slide.frame} / ${slide.frames}`;
@@ -377,6 +417,8 @@ async function init() {
         category: item.category || "Other",
         title: item.title || "",
         note: item.note || "",
+        colors: Array.isArray(item.colors) ? item.colors.map(String).filter(Boolean) : [],
+        sizes: item.sizes ? String(item.sizes).trim() : "",
         image: images[0],
         images,
       };

@@ -20,7 +20,12 @@
       "A-3_795e.jpg",
       "A-4_0dcb.jpg",
       "A-5_74cf.jpg"
-    ]
+    ],
+    "colors": [
+      "咖啡色",
+      "墨绿色"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1116-10",
@@ -37,7 +42,9 @@
     "sources": [
       "J-1_3428.jpg",
       "J-2_10dc.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1116-11",
@@ -54,7 +61,9 @@
     "sources": [
       "K-1_04e7.jpg",
       "K-2_0c22.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1116-12",
@@ -77,7 +86,14 @@
       "L-3_c8a0.jpg",
       "L-4_b222.jpg",
       "L-5_b755.jpg"
-    ]
+    ],
+    "colors": [
+      "粉色",
+      "孔雀蓝",
+      "黄色",
+      "浅紫"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1116-13",
@@ -92,6 +108,54 @@
     "source": "M-1_2817.jpg",
     "sources": [
       "M-1_2817.jpg"
+    ],
+    "colors": [
+      "黑色",
+      "白色"
+    ],
+    "sizes": ""
+  },
+  {
+    "code": "CO-1116-14",
+    "date": "2026-11-16",
+    "category": "Dresses",
+    "title": "钉珠吊带包臀长裙",
+    "note": "钉珠吊带包臀长裙。颜色：黑色 / 红色 / 白色 / 宝蓝色。",
+    "image": "photos/2026-11-16/CO-1116-14.webp",
+    "images": [
+      "photos/2026-11-16/CO-1116-14.webp"
+    ],
+    "colors": [
+      "黑色",
+      "红色",
+      "白色",
+      "宝蓝色"
+    ],
+    "sizes": "S-XL",
+    "source": "N-1_9cb2.jpg",
+    "sources": [
+      "N-1_9cb2.jpg"
+    ]
+  },
+  {
+    "code": "CO-1116-15",
+    "date": "2026-11-16",
+    "category": "Dresses",
+    "title": "满钻吊带包臀长裙",
+    "note": "满钻吊带包臀长裙。颜色：粉色 / 浅蓝色 / 黑色。",
+    "image": "photos/2026-11-16/CO-1116-15.webp",
+    "images": [
+      "photos/2026-11-16/CO-1116-15.webp"
+    ],
+    "colors": [
+      "粉色",
+      "浅蓝色",
+      "黑色"
+    ],
+    "sizes": "S-XL",
+    "source": "O-1_cc36.jpg",
+    "sources": [
+      "O-1_cc36.jpg"
     ]
   },
   {
@@ -115,7 +179,12 @@
       "B-3_b987.jpg",
       "B-4_1944.jpg",
       "B-5_bb4a.jpg"
-    ]
+    ],
+    "colors": [
+      "black",
+      "burgundy brown"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-03",
@@ -134,7 +203,13 @@
       "C-1_8a68.jpg",
       "C-2_6c6a.jpg",
       "C-3_4c30.jpg"
-    ]
+    ],
+    "colors": [
+      "brown",
+      "black & white",
+      "all black"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-04",
@@ -157,7 +232,12 @@
       "D-3_5d3a.jpg",
       "D-4_9cf5.jpg",
       "D-5_8e27.jpg"
-    ]
+    ],
+    "colors": [
+      "black",
+      "charcoal grey"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-05",
@@ -174,7 +254,9 @@
     "sources": [
       "E-1_6e29.jpg",
       "E-2_e784.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-06",
@@ -195,7 +277,14 @@
       "F-2_d263.jpg",
       "F-3_79ba.jpg",
       "F-4_bc4a.jpg"
-    ]
+    ],
+    "colors": [
+      "green",
+      "hot pink",
+      "black",
+      "white"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-07",
@@ -212,7 +301,9 @@
     "sources": [
       "G-1_7715.jpg",
       "G-2_d75a.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-08",
@@ -227,7 +318,9 @@
     "source": "H-1_2b80.jpg",
     "sources": [
       "H-1_2b80.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-09",
@@ -242,7 +335,9 @@
     "source": "H-2_2397.jpg",
     "sources": [
       "H-2_2397.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-10",
@@ -257,7 +352,9 @@
     "source": "H-3_568e.jpg",
     "sources": [
       "H-3_568e.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-11",
@@ -272,7 +369,9 @@
     "source": "H-4_6426.jpg",
     "sources": [
       "H-4_6426.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-12",
@@ -287,7 +386,9 @@
     "source": "H-5_e76a.jpg",
     "sources": [
       "H-5_e76a.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-13",
@@ -304,7 +405,12 @@
     "sources": [
       "I-1_7be4.jpg",
       "I-2_034d.jpg"
-    ]
+    ],
+    "colors": [
+      "black",
+      "yellow"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-14",
@@ -319,7 +425,9 @@
     "source": "J-1_e076.jpg",
     "sources": [
       "J-1_e076.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-15",
@@ -336,7 +444,12 @@
     "sources": [
       "K-1_bf99.jpg",
       "K-2_891a.jpg"
-    ]
+    ],
+    "colors": [
+      "gold",
+      "black"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-16",
@@ -351,7 +464,9 @@
     "source": "L-1_f99d.jpg",
     "sources": [
       "L-1_f99d.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-17",
@@ -366,7 +481,9 @@
     "source": "M-1_2558.jpg",
     "sources": [
       "M-1_2558.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-18",
@@ -387,7 +504,14 @@
       "N-2_7771.jpg",
       "N-3_e94d.jpg",
       "N-4_efbd.jpg"
-    ]
+    ],
+    "colors": [
+      "pink",
+      "black",
+      "camel",
+      "white"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-19",
@@ -402,7 +526,9 @@
     "source": "P-1_d62f.jpg",
     "sources": [
       "P-1_d62f.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-20",
@@ -417,7 +543,9 @@
     "source": "Q-1_9e52.jpg",
     "sources": [
       "Q-1_9e52.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-21",
@@ -432,7 +560,9 @@
     "source": "R-1_d841.jpg",
     "sources": [
       "R-1_d841.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-22",
@@ -447,7 +577,9 @@
     "source": "S-1_575b.jpg",
     "sources": [
       "S-1_575b.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-23",
@@ -462,7 +594,9 @@
     "source": "T-1_9dd9.jpg",
     "sources": [
       "T-1_9dd9.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-24",
@@ -481,7 +615,13 @@
       "U-1_6e30.jpg",
       "U-2_9707.jpg",
       "U-3_923d.jpg"
-    ]
+    ],
+    "colors": [
+      "red",
+      "black",
+      "cream"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-25",
@@ -498,7 +638,12 @@
     "sources": [
       "V-1_6be5.jpg",
       "V-2_e43f.jpg"
-    ]
+    ],
+    "colors": [
+      "red",
+      "black"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-26",
@@ -513,7 +658,9 @@
     "source": "W-1_33b3.jpg",
     "sources": [
       "W-1_33b3.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-27",
@@ -528,7 +675,9 @@
     "source": "X-1_3dad.jpg",
     "sources": [
       "X-1_3dad.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-28",
@@ -543,7 +692,9 @@
     "source": "Y-1_22ed.jpg",
     "sources": [
       "Y-1_22ed.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-29",
@@ -560,7 +711,14 @@
     "sources": [
       "Z-1_72de.jpg",
       "Z-2_c4a4.jpg"
-    ]
+    ],
+    "colors": [
+      "black",
+      "chocolate brown",
+      "burgundy",
+      "red"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-30",
@@ -575,7 +733,9 @@
     "source": "AA-1_82cf.jpg",
     "sources": [
       "AA-1_82cf.jpg"
-    ]
+    ],
+    "colors": [],
+    "sizes": ""
   },
   {
     "code": "CO-1109-31",
@@ -592,7 +752,12 @@
     "sources": [
       "AB-1_e6db.jpg",
       "AB-2_32ba.jpg"
-    ]
+    ],
+    "colors": [
+      "cream",
+      "mint green"
+    ],
+    "sizes": ""
   },
   {
     "code": "CO-1109-32",
@@ -609,6 +774,11 @@
     "sources": [
       "AC-1_86e4.jpg",
       "AC-2_30a8.jpg"
-    ]
+    ],
+    "colors": [
+      "burgundy",
+      "apricot"
+    ],
+    "sizes": ""
   }
 ]

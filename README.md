@@ -49,8 +49,12 @@ Several photos of one look stay in one folder. The first filename is the cover, 
 python3 scripts/add_day.py 2026-11-09 ./incoming/lantern-set \
   --one-item --code CO-1109-02 --category Sets \
   --title "Embroidered lantern-sleeve set" \
-  --note "Embroidered lantern-sleeve shirt + wide-leg trousers set. Colours: black, burgundy brown"
+  --note "Embroidered lantern-sleeve shirt + wide-leg trousers set. Colours: black, burgundy brown" \
+  --colors "black / burgundy brown" \
+  --sizes "S-XL"
 ```
+
+`--colors` is a slash- or comma-separated list stored on the item. `--sizes` is optional text such as `S-XL`. Leave it off when the size is unknown; the page then says to ask on WhatsApp. Price is always “ask on WhatsApp” and is not stored per item.
 
 `--code` keeps a number free. `CO-1109-01` is reserved for a skirt, so the first published looks are `CO-1109-02`, `CO-1109-03`, and `CO-1109-04`.
 

@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -117,6 +118,14 @@ def collect_images(src: Path) -> list[Path]:
     return sorted(files, key=lambda path: path.name.casefold())
 
 
+def parse_colors(value: str) -> list[str]:
+    text = value.strip().rstrip("。.")
+    if not text:
+        return []
+    parts = re.split(r"\s*/\s*|\s*,\s*|、", text)
+    return [part.strip() for part in parts if part.strip()]
+
+
 def photo_dest(day_dir: Path, code: str, index: int, total: int) -> Path:
     if total == 1:
         return day_dir / f"{code}.webp"
@@ -151,6 +160,16 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--code", help="Force the item code, such as CO-1109-02. Use with --one-item")
     parser.add_argument("--title", default="", help="Title for a --one-item import")
     parser.add_argument("--note", default="", help="Note for a --one-item import")
+    parser.add_argument(
+        "--colors",
+        default="",
+        help="Colours for a --one-item import, separated by slashes or commas. Example: 黑色 / 红色",
+    )
+    parser.add_argument(
+        "--sizes",
+        default="",
+        help="Size text for a --one-item import, such as S-XL. Leave empty to show the WhatsApp fallback.",
+    )
     parser.add_argument("--long-edge", type=int, default=1600)
     parser.add_argument("--quality", type=int, default=82)
     parser.add_argument(
@@ -199,6 +218,8 @@ def import_one_item(args, images, items, date_str, day_dir, prefix, category) ->
         "note": note,
         "image": paths[0],
         "images": paths,
+        "colors": parse_colors(args.colors),
+        "sizes": args.sizes.strip(),
         "source": filenames[0],
         "sources": filenames,
     }
@@ -244,9 +265,9 @@ def main(argv: list[str] | None = None) -> int:
     skipped = 0
     day_dir = PHOTOS / date_str
 
-    if args.one_item or args.code or args.title or args.note:
+    if args.one_item or args.code or args.title or args.note or args.colors or args.sizes:
         if not args.one_item:
-            raise SystemExit("--code, --title, and --note are used with --one-item.")
+            raise SystemExit("--code, --title, --note, --colors, and --sizes are used with --one-item.")
         return import_one_item(
             args,
             images,
