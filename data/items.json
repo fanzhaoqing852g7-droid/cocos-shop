@@ -23,6 +23,78 @@
     ]
   },
   {
+    "code": "CO-1116-10",
+    "date": "2026-11-16",
+    "category": "Sets",
+    "title": "黑白波点条纹拼接套装",
+    "note": "黑白波点条纹拼接衬衫 + 灯笼裤套装。",
+    "image": "photos/2026-11-16/CO-1116-10-01.webp",
+    "images": [
+      "photos/2026-11-16/CO-1116-10-01.webp",
+      "photos/2026-11-16/CO-1116-10-02.webp"
+    ],
+    "source": "J-1_3428.jpg",
+    "sources": [
+      "J-1_3428.jpg",
+      "J-2_10dc.jpg"
+    ]
+  },
+  {
+    "code": "CO-1116-11",
+    "date": "2026-11-16",
+    "category": "Sets",
+    "title": "白色黑花刺绣套装",
+    "note": "白色黑花刺绣衬衫 + 阔腿裤套装。",
+    "image": "photos/2026-11-16/CO-1116-11-01.webp",
+    "images": [
+      "photos/2026-11-16/CO-1116-11-01.webp",
+      "photos/2026-11-16/CO-1116-11-02.webp"
+    ],
+    "source": "K-1_04e7.jpg",
+    "sources": [
+      "K-1_04e7.jpg",
+      "K-2_0c22.jpg"
+    ]
+  },
+  {
+    "code": "CO-1116-12",
+    "date": "2026-11-16",
+    "category": "Dresses",
+    "title": "缎面斗篷流苏连衣裙",
+    "note": "缎面斗篷流苏连衣裙。颜色：粉色 / 孔雀蓝 / 黄色 / 浅紫。",
+    "image": "photos/2026-11-16/CO-1116-12-01.webp",
+    "images": [
+      "photos/2026-11-16/CO-1116-12-01.webp",
+      "photos/2026-11-16/CO-1116-12-02.webp",
+      "photos/2026-11-16/CO-1116-12-03.webp",
+      "photos/2026-11-16/CO-1116-12-04.webp",
+      "photos/2026-11-16/CO-1116-12-05.webp"
+    ],
+    "source": "L-1_1d14.jpg",
+    "sources": [
+      "L-1_1d14.jpg",
+      "L-2_1d9a.jpg",
+      "L-3_c8a0.jpg",
+      "L-4_b222.jpg",
+      "L-5_b755.jpg"
+    ]
+  },
+  {
+    "code": "CO-1116-13",
+    "date": "2026-11-16",
+    "category": "Shirts",
+    "title": "宽松领巾衬衫",
+    "note": "宽松领巾衬衫。颜色：黑色 / 白色。",
+    "image": "photos/2026-11-16/CO-1116-13.webp",
+    "images": [
+      "photos/2026-11-16/CO-1116-13.webp"
+    ],
+    "source": "M-1_2817.jpg",
+    "sources": [
+      "M-1_2817.jpg"
+    ]
+  },
+  {
     "code": "CO-1109-02",
     "date": "2026-11-09",
     "category": "Sets",
