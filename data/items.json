@@ -22,6 +22,107 @@
     ]
   },
   {
+    "code": "CO-1117-02",
+    "date": "2026-11-17",
+    "category": "Dresses",
+    "title": "长袖钉珠立体花朵长裙",
+    "note": "长袖钉珠立体花朵长裙。Long-sleeve maxi dress with beaded 3D floral embroidery. 颜色：白色 / 粉色 / 浅蓝色。",
+    "image": "photos/2026-11-17/CO-1117-02.webp",
+    "images": [
+      "photos/2026-11-17/CO-1117-02.webp"
+    ],
+    "colors": [
+      "白色",
+      "粉色",
+      "浅蓝色"
+    ],
+    "sizes": "L-2XL",
+    "source": "Q-1_00b5.jpg",
+    "sources": [
+      "Q-1_00b5.jpg"
+    ]
+  },
+  {
+    "code": "CO-1117-03",
+    "date": "2026-11-17",
+    "category": "Dresses",
+    "title": "立领V口立体花朵钉珠长裙",
+    "note": "立领V口立体花朵钉珠长裙。V-neck maxi dress with 3D flower and bead embroidery. 颜色：黄色 / 绿色。",
+    "image": "photos/2026-11-17/CO-1117-03.webp",
+    "images": [
+      "photos/2026-11-17/CO-1117-03.webp"
+    ],
+    "colors": [
+      "黄色",
+      "绿色"
+    ],
+    "sizes": "L-2XL",
+    "source": "R-1_eed7.jpg",
+    "sources": [
+      "R-1_eed7.jpg"
+    ]
+  },
+  {
+    "code": "CO-1117-04",
+    "date": "2026-11-17",
+    "category": "Dresses",
+    "title": "立领V口亮片花朵长裙",
+    "note": "立领V口亮片花朵长裙。V-neck jacquard maxi dress with sequin floral embroidery. 颜色：蓝色 / 白色。",
+    "image": "photos/2026-11-17/CO-1117-04.webp",
+    "images": [
+      "photos/2026-11-17/CO-1117-04.webp"
+    ],
+    "colors": [
+      "蓝色",
+      "白色"
+    ],
+    "sizes": "L-2XL",
+    "source": "S-1_1ffa.jpg",
+    "sources": [
+      "S-1_1ffa.jpg"
+    ]
+  },
+  {
+    "code": "CO-1117-05",
+    "date": "2026-11-17",
+    "category": "Dresses",
+    "title": "缎面立体花朵钉珠长裙",
+    "note": "缎面立体花朵钉珠长裙。Satin maxi dress with 3D floral beaded embroidery. 颜色：绿色 / 粉色。",
+    "image": "photos/2026-11-17/CO-1117-05.webp",
+    "images": [
+      "photos/2026-11-17/CO-1117-05.webp"
+    ],
+    "colors": [
+      "绿色",
+      "粉色"
+    ],
+    "sizes": "L-2XL",
+    "source": "T-1_8846.jpg",
+    "sources": [
+      "T-1_8846.jpg"
+    ]
+  },
+  {
+    "code": "CO-1117-06",
+    "date": "2026-11-17",
+    "category": "Dresses",
+    "title": "缎面大花钉珠长裙",
+    "note": "缎面大花钉珠长裙。Satin maxi dress with large beaded floral embroidery. 颜色：绿色 / 白色。",
+    "image": "photos/2026-11-17/CO-1117-06.webp",
+    "images": [
+      "photos/2026-11-17/CO-1117-06.webp"
+    ],
+    "colors": [
+      "绿色",
+      "白色"
+    ],
+    "sizes": "L-2XL",
+    "source": "U-1_5ce5.jpg",
+    "sources": [
+      "U-1_5ce5.jpg"
+    ]
+  },
+  {
     "code": "CO-1116-01",
     "date": "2026-11-16",
     "category": "Sets",
