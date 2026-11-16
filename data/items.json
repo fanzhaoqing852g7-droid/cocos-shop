@@ -1,5 +1,28 @@
 [
   {
+    "code": "CO-1116-01",
+    "date": "2026-11-16",
+    "category": "Sets",
+    "title": "斜篷袖西装套装",
+    "note": "斜篷袖西装外套 + 拉链装饰大摆半身裙套装，宽松慵懒廓形。颜色：咖啡色 / 墨绿色。",
+    "image": "photos/2026-11-16/CO-1116-01-01.webp",
+    "images": [
+      "photos/2026-11-16/CO-1116-01-01.webp",
+      "photos/2026-11-16/CO-1116-01-02.webp",
+      "photos/2026-11-16/CO-1116-01-03.webp",
+      "photos/2026-11-16/CO-1116-01-04.webp",
+      "photos/2026-11-16/CO-1116-01-05.webp"
+    ],
+    "source": "A-1_751e.jpg",
+    "sources": [
+      "A-1_751e.jpg",
+      "A-2_e409.jpg",
+      "A-3_795e.jpg",
+      "A-4_0dcb.jpg",
+      "A-5_74cf.jpg"
+    ]
+  },
+  {
     "code": "CO-1109-02",
     "date": "2026-11-09",
     "category": "Sets",
