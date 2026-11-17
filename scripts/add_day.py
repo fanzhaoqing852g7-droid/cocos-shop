@@ -18,6 +18,8 @@ Name a file with its category to override the default:
   workwear_charcoal_blazer.jpg
   Shoes - nude slingback.jpg
 
+Write titles, notes, and colour names in English. A note that lists colours should end with "Colours: black, red."
+
 Or put manifest.json in the source folder:
 
   [
@@ -163,7 +165,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--colors",
         default="",
-        help="Colours for a --one-item import, separated by slashes or commas. Example: 黑色 / 红色",
+        help="English colour names for a --one-item import, separated by slashes or commas. Example: black / red",
     )
     parser.add_argument(
         "--sizes",

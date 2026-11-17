@@ -234,13 +234,11 @@ function setCategory(category, { updateHash = true } = {}) {
 const viewerFacts = document.querySelector("#viewer-facts");
 
 function colorsLabel(colors) {
-  return `颜色 / Colours：${colors.join(" / ")}`;
+  return `Colours: ${colors.join(", ")}`;
 }
 
 function sizesLabel(sizes) {
-  return sizes
-    ? `码数 / Sizes：${sizes}`
-    : "码数：WhatsApp 咨询 / Sizes: ask on WhatsApp";
+  return sizes ? `Sizes: ${sizes}` : "Sizes: ask on WhatsApp";
 }
 
 function priceLink(item) {
@@ -250,7 +248,7 @@ function priceLink(item) {
     target: "_blank",
     rel: "noopener noreferrer",
   });
-  link.textContent = "价格：WhatsApp 咨询 / Price: ask on WhatsApp";
+  link.textContent = "Price: ask on WhatsApp";
   return link;
 }
 

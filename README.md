@@ -54,7 +54,7 @@ python3 scripts/add_day.py 2026-11-09 ./incoming/lantern-set \
   --sizes "S-XL"
 ```
 
-`--colors` is a slash- or comma-separated list stored on the item. `--sizes` is optional text such as `S-XL`. Leave it off when the size is unknown; the page then says to ask on WhatsApp. Price is always “ask on WhatsApp” and is not stored per item.
+Write the title, note, and `--colors` in English. A note that lists colours should end with `Colours: black, red.` `--colors` is a slash- or comma-separated list of lowercase colour names. `--sizes` is optional text such as `S-XL`. Leave it off when the size is unknown; the page then says “Sizes: ask on WhatsApp”. Price is always “Price: ask on WhatsApp” and is not stored per item.
 
 `--code` keeps a number free. `CO-1109-01` is reserved for a skirt, so the first published looks are `CO-1109-02`, `CO-1109-03`, and `CO-1109-04`.
 
