@@ -261,6 +261,51 @@
     ]
   },
   {
+    "code": "CO-1118-13",
+    "date": "2026-11-18",
+    "category": "Sets",
+    "title": "Silk scarf-print draped set",
+    "note": "Paisley scarf-print satin with a high neck, a draped cape top and a matching asymmetric skirt. Colours: teal, purple, ivory.",
+    "image": "photos/2026-11-18/CO-1118-13.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-13.webp"
+    ],
+    "colors": [
+      "teal",
+      "purple",
+      "ivory"
+    ],
+    "sizes": "",
+    "source": "01-M-1_7eb5.jpg",
+    "sources": [
+      "01-M-1_7eb5.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-14",
+    "date": "2026-11-18",
+    "category": "Tops",
+    "title": "Pleated batwing top",
+    "note": "Relaxed plissé top with a boat neck and batwing sleeves. Colours: olive green, mocha.",
+    "image": "photos/2026-11-18/CO-1118-14-01.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-14-01.webp",
+      "photos/2026-11-18/CO-1118-14-02.webp",
+      "photos/2026-11-18/CO-1118-14-03.webp"
+    ],
+    "colors": [
+      "olive green",
+      "mocha"
+    ],
+    "sizes": "",
+    "source": "01-N-1_7c37.jpg",
+    "sources": [
+      "01-N-1_7c37.jpg",
+      "02-N-2_97ba.jpg",
+      "03-N-3_c00c.jpg"
+    ]
+  },
+  {
     "code": "CO-1117-01",
     "date": "2026-11-17",
     "category": "Dresses",
