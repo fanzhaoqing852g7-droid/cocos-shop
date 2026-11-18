@@ -1,5 +1,168 @@
 [
   {
+    "code": "CO-1118-01",
+    "date": "2026-11-18",
+    "category": "Dresses",
+    "title": "Striped brocade maxi dress",
+    "note": "Chinese-inspired brocade with pink, gold and cream vertical stripes and a floral jacquard motif. Colours: pink, gold.",
+    "image": "photos/2026-11-18/CO-1118-01-01.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-01-01.webp",
+      "photos/2026-11-18/CO-1118-01-02.webp",
+      "photos/2026-11-18/CO-1118-01-03.webp"
+    ],
+    "colors": [
+      "pink",
+      "gold"
+    ],
+    "sizes": "",
+    "source": "01-A-1_fe93.jpg",
+    "sources": [
+      "01-A-1_fe93.jpg",
+      "02-A-2_28bf.jpg",
+      "03-A-3_53fd.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-02",
+    "date": "2026-11-18",
+    "category": "Sets",
+    "title": "Boho print shirt and maxi skirt set",
+    "note": "Folk-print shirt with a mandala back panel and a matching striped maxi skirt. Colours: mustard, green, pink.",
+    "image": "photos/2026-11-18/CO-1118-02-01.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-02-01.webp",
+      "photos/2026-11-18/CO-1118-02-02.webp",
+      "photos/2026-11-18/CO-1118-02-03.webp"
+    ],
+    "colors": [
+      "mustard",
+      "green",
+      "pink"
+    ],
+    "sizes": "",
+    "source": "01-B-1_78d6.jpg",
+    "sources": [
+      "01-B-1_78d6.jpg",
+      "02-B-2_1f39.jpg",
+      "03-B-3_0e93.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-03",
+    "date": "2026-11-18",
+    "category": "Dresses",
+    "title": "White collared button-front dress",
+    "note": "Sleeveless lapel collar, pearl button front, flowing asymmetric hem. Colours: white.",
+    "image": "photos/2026-11-18/CO-1118-03-01.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-03-01.webp",
+      "photos/2026-11-18/CO-1118-03-02.webp"
+    ],
+    "colors": [
+      "white"
+    ],
+    "sizes": "",
+    "source": "01-C-1_4011.jpg",
+    "sources": [
+      "01-C-1_4011.jpg",
+      "02-C-2_d0d7.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-04",
+    "date": "2026-11-18",
+    "category": "Dresses",
+    "title": "Square-neck corset flare dress",
+    "note": "Corset-seamed bodice, smocked back with gold zip, full flared skirt. Colours: pink, yellow, white.",
+    "image": "photos/2026-11-18/CO-1118-04-01.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-04-01.webp",
+      "photos/2026-11-18/CO-1118-04-02.webp",
+      "photos/2026-11-18/CO-1118-04-03.webp",
+      "photos/2026-11-18/CO-1118-04-04.webp"
+    ],
+    "colors": [
+      "pink",
+      "yellow",
+      "white"
+    ],
+    "sizes": "",
+    "source": "01-D-pink_28fd.jpg",
+    "sources": [
+      "01-D-pink_28fd.jpg",
+      "02-D-yellow_7e05.jpg",
+      "03-D-white_aaac.jpg",
+      "04-D-back_fa68.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-05",
+    "date": "2026-11-18",
+    "category": "Dresses",
+    "title": "Red jacquard belted shirt dress",
+    "note": "Leaf jacquard shirt dress with jewel buttons, tie belt and satin puff hem. Colours: red.",
+    "image": "photos/2026-11-18/CO-1118-05-01.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-05-01.webp",
+      "photos/2026-11-18/CO-1118-05-02.webp",
+      "photos/2026-11-18/CO-1118-05-03.webp"
+    ],
+    "colors": [
+      "red"
+    ],
+    "sizes": "",
+    "source": "01-E-1_7f2a.jpg",
+    "sources": [
+      "01-E-1_7f2a.jpg",
+      "02-E-2_81d4.jpg",
+      "03-E-3_b7c3.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-06",
+    "date": "2026-11-18",
+    "category": "Dresses",
+    "title": "Cream pleated halter maxi dress",
+    "note": "Ruched halter V-neck bodice with a fine pleated flowing skirt. Colours: cream.",
+    "image": "photos/2026-11-18/CO-1118-06-01.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-06-01.webp",
+      "photos/2026-11-18/CO-1118-06-02.webp",
+      "photos/2026-11-18/CO-1118-06-03.webp"
+    ],
+    "colors": [
+      "cream"
+    ],
+    "sizes": "",
+    "source": "01-F-1_2193.jpg",
+    "sources": [
+      "01-F-1_2193.jpg",
+      "02-F-2_8a3b.jpg",
+      "03-F-3_8a35.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-07",
+    "date": "2026-11-18",
+    "category": "Skirts",
+    "title": "Large sequin maxi skirt",
+    "note": "Statement maxi skirt covered in large hexagonal paillettes. Colours: gold, black.",
+    "image": "photos/2026-11-18/CO-1118-07.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-07.webp"
+    ],
+    "colors": [
+      "gold",
+      "black"
+    ],
+    "sizes": "",
+    "source": "G-1_63e6.jpg",
+    "sources": [
+      "G-1_63e6.jpg"
+    ]
+  },
+  {
     "code": "CO-1117-01",
     "date": "2026-11-17",
     "category": "Dresses",
@@ -120,6 +283,28 @@
     "source": "U-1_5ce5.jpg",
     "sources": [
       "U-1_5ce5.jpg"
+    ]
+  },
+  {
+    "code": "CO-1117-07",
+    "date": "2026-11-17",
+    "category": "Sets",
+    "title": "White bow-tab shirt and black maxi skirt set",
+    "note": "Crisp white shirt with bow-tab detail paired with a black maxi skirt. Colours: white, black.",
+    "image": "photos/2026-11-17/CO-1117-07-01.webp",
+    "images": [
+      "photos/2026-11-17/CO-1117-07-01.webp",
+      "photos/2026-11-17/CO-1117-07-02.webp"
+    ],
+    "colors": [
+      "white",
+      "black"
+    ],
+    "sizes": "",
+    "source": "01-V-1_6365.jpg",
+    "sources": [
+      "01-V-1_6365.jpg",
+      "02-V-2_04fa.jpg"
     ]
   },
   {

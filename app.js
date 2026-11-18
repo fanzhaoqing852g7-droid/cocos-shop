@@ -238,7 +238,7 @@ function colorsLabel(colors) {
 }
 
 function sizesLabel(sizes) {
-  return sizes ? `Sizes: ${sizes}` : "Sizes: ask on WhatsApp";
+  return sizes ? `Sizes: ${sizes}` : "";
 }
 
 function priceLink(item) {
@@ -255,7 +255,7 @@ function priceLink(item) {
 function factsBlock(item, className) {
   const block = el("div", { class: className });
   if (item.colors.length) block.append(text("p", "fact-colors", colorsLabel(item.colors)));
-  block.append(text("p", "fact-sizes", sizesLabel(item.sizes)));
+  if (item.sizes) block.append(text("p", "fact-sizes", sizesLabel(item.sizes)));
   const price = el("p", { class: "fact-price" });
   price.append(priceLink(item));
   block.append(price);
@@ -283,7 +283,7 @@ function showSlide(index) {
   viewerNote.textContent = item.note || "";
   viewerFacts.replaceChildren();
   if (item.colors.length) viewerFacts.append(text("p", "fact-colors", colorsLabel(item.colors)));
-  viewerFacts.append(text("p", "fact-sizes", sizesLabel(item.sizes)));
+  if (item.sizes) viewerFacts.append(text("p", "fact-sizes", sizesLabel(item.sizes)));
   const priceLine = el("p", { class: "fact-price" });
   priceLine.append(priceLink(item));
   viewerFacts.append(priceLine);
