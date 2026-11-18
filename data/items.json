@@ -163,6 +163,104 @@
     ]
   },
   {
+    "code": "CO-1118-08",
+    "date": "2026-11-18",
+    "category": "Skirts",
+    "title": "Zebra sequin midi skirt",
+    "note": "Sequin zebra-wave pattern with a satin waistband. Colours: silver, navy.",
+    "image": "photos/2026-11-18/CO-1118-08.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-08.webp"
+    ],
+    "colors": [
+      "silver",
+      "navy"
+    ],
+    "sizes": "",
+    "source": "H-1_a297.jpg",
+    "sources": [
+      "H-1_a297.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-09",
+    "date": "2026-11-18",
+    "category": "Skirts",
+    "title": "Hot pink zebra sequin skirt",
+    "note": "Bold pink and black wave sequins with a satin waistband. Colours: hot pink, black.",
+    "image": "photos/2026-11-18/CO-1118-09.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-09.webp"
+    ],
+    "colors": [
+      "hot pink",
+      "black"
+    ],
+    "sizes": "",
+    "source": "I-1_f773.jpg",
+    "sources": [
+      "I-1_f773.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-10",
+    "date": "2026-11-18",
+    "category": "Skirts",
+    "title": "Multicolour wave sequin skirt",
+    "note": "Rainbow wave sequins in orange, purple, green and magenta. Colours: multicolour.",
+    "image": "photos/2026-11-18/CO-1118-10.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-10.webp"
+    ],
+    "colors": [
+      "multicolour"
+    ],
+    "sizes": "",
+    "source": "J-1_33b1.jpg",
+    "sources": [
+      "J-1_33b1.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-11",
+    "date": "2026-11-18",
+    "category": "Skirts",
+    "title": "Lightning bolt sequin skirt",
+    "note": "Black sequin skirt with a white lightning-bolt pattern. Colours: black, white.",
+    "image": "photos/2026-11-18/CO-1118-11.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-11.webp"
+    ],
+    "colors": [
+      "black",
+      "white"
+    ],
+    "sizes": "",
+    "source": "K-1_29ea.jpg",
+    "sources": [
+      "K-1_29ea.jpg"
+    ]
+  },
+  {
+    "code": "CO-1118-12",
+    "date": "2026-11-18",
+    "category": "Skirts",
+    "title": "Red paillette maxi skirt",
+    "note": "Covered in large round red paillettes with a satin waistband. Colours: red.",
+    "image": "photos/2026-11-18/CO-1118-12.webp",
+    "images": [
+      "photos/2026-11-18/CO-1118-12.webp"
+    ],
+    "colors": [
+      "red"
+    ],
+    "sizes": "",
+    "source": "L-1_5bb1.jpg",
+    "sources": [
+      "L-1_5bb1.jpg"
+    ]
+  },
+  {
     "code": "CO-1117-01",
     "date": "2026-11-17",
     "category": "Dresses",
