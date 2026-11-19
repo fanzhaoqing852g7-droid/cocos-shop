@@ -1,5 +1,113 @@
 [
   {
+    "code": "CO-1120-01",
+    "date": "2026-11-20",
+    "category": "Sets",
+    "title": "Red curved-hem shirt jacket and maxi skirt set",
+    "note": "Oversized shirt jacket with sculpted curved hem panels, paired with a full maxi skirt with contrast topstitching. Colours: red.",
+    "image": "photos/2026-11-20/CO-1120-01-01.webp",
+    "images": [
+      "photos/2026-11-20/CO-1120-01-01.webp",
+      "photos/2026-11-20/CO-1120-01-02.webp",
+      "photos/2026-11-20/CO-1120-01-03.webp"
+    ],
+    "colors": [
+      "red"
+    ],
+    "sizes": "",
+    "source": "01-A-1_17fe.jpg",
+    "sources": [
+      "01-A-1_17fe.jpg",
+      "02-A-2_4549.jpg",
+      "03-A-3_e0b1.jpg"
+    ]
+  },
+  {
+    "code": "CO-1120-02",
+    "date": "2026-11-20",
+    "category": "Tops",
+    "title": "Organza oversized bow blouse",
+    "note": "Sheer organza with a dramatic neck bow and voluminous sleeves, worn with a thin belt. Colours: light blue.",
+    "image": "photos/2026-11-20/CO-1120-02.webp",
+    "images": [
+      "photos/2026-11-20/CO-1120-02.webp"
+    ],
+    "colors": [
+      "light blue"
+    ],
+    "sizes": "",
+    "source": "01-B-1_f04a.jpg",
+    "sources": [
+      "01-B-1_f04a.jpg"
+    ]
+  },
+  {
+    "code": "CO-1120-03",
+    "date": "2026-11-20",
+    "category": "Dresses",
+    "title": "Satin cascade ruffle maxi dress",
+    "note": "High-neck satin gown with a wrapped sash waist and cascading ruffle panels. Colours: sage green.",
+    "image": "photos/2026-11-20/CO-1120-03.webp",
+    "images": [
+      "photos/2026-11-20/CO-1120-03.webp"
+    ],
+    "colors": [
+      "sage green"
+    ],
+    "sizes": "",
+    "source": "01-C-1_bb3e.jpg",
+    "sources": [
+      "01-C-1_bb3e.jpg"
+    ]
+  },
+  {
+    "code": "CO-1120-04",
+    "date": "2026-11-20",
+    "category": "Tops",
+    "title": "Tab-fringe hem mock-neck top",
+    "note": "Boxy mock-neck top with drop sleeves and a layered square-tab fringe hem. Colours: white, red, black.",
+    "image": "photos/2026-11-20/CO-1120-04-01.webp",
+    "images": [
+      "photos/2026-11-20/CO-1120-04-01.webp",
+      "photos/2026-11-20/CO-1120-04-02.webp",
+      "photos/2026-11-20/CO-1120-04-03.webp"
+    ],
+    "colors": [
+      "white",
+      "red",
+      "black"
+    ],
+    "sizes": "",
+    "source": "01-D-1_c89a.jpg",
+    "sources": [
+      "01-D-1_c89a.jpg",
+      "02-D-2_195c.jpg",
+      "03-D-3_c324.jpg"
+    ]
+  },
+  {
+    "code": "CO-1120-05",
+    "date": "2026-11-20",
+    "category": "Dresses",
+    "title": "Velvet draped-neck maxi dress",
+    "note": "Soft velvet gown with a draped cowl neckline, strong shoulders and long sleeves; shown with a pearl chain belt. Colours: burgundy, black.",
+    "image": "photos/2026-11-20/CO-1120-05-01.webp",
+    "images": [
+      "photos/2026-11-20/CO-1120-05-01.webp",
+      "photos/2026-11-20/CO-1120-05-02.webp"
+    ],
+    "colors": [
+      "burgundy",
+      "black"
+    ],
+    "sizes": "",
+    "source": "01-E-1_57b5.jpg",
+    "sources": [
+      "01-E-1_57b5.jpg",
+      "02-E-2_40cc.jpg"
+    ]
+  },
+  {
     "code": "CO-1118-01",
     "date": "2026-11-18",
     "category": "Dresses",
