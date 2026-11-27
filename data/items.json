@@ -1,5 +1,291 @@
 [
   {
+    "code": "CO-1128-01",
+    "date": "2026-11-28",
+    "category": "Tops",
+    "title": "Ruched tie-neck bubble-hem top",
+    "note": "Sleeveless gathered top with a neck tie and banded bubble hem, relaxed oversized fit. Colours: olive green, white, black, brown, royal blue, red, lime green, fuchsia.",
+    "image": "photos/2026-11-28/CO-1128-01-01.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-01-01.webp",
+      "photos/2026-11-28/CO-1128-01-02.webp",
+      "photos/2026-11-28/CO-1128-01-03.webp",
+      "photos/2026-11-28/CO-1128-01-04.webp",
+      "photos/2026-11-28/CO-1128-01-05.webp",
+      "photos/2026-11-28/CO-1128-01-06.webp",
+      "photos/2026-11-28/CO-1128-01-07.webp",
+      "photos/2026-11-28/CO-1128-01-08.webp"
+    ],
+    "colors": [
+      "olive green",
+      "white",
+      "black",
+      "brown",
+      "royal blue",
+      "red",
+      "lime green",
+      "fuchsia"
+    ],
+    "sizes": "",
+    "source": "01-A-olive_5242.jpg",
+    "sources": [
+      "01-A-olive_5242.jpg",
+      "02-A-white_f8a1.jpg",
+      "03-A-black_c11e.jpg",
+      "04-A-brown_f74d.jpg",
+      "05-A-blue_29fd.jpg",
+      "06-A-red_eea2.jpg",
+      "07-A-lime_d4cc.jpg",
+      "08-A-fuchsia_69f1.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-02",
+    "date": "2026-11-28",
+    "category": "Skirts",
+    "title": "Champagne and black paillette midi skirt",
+    "note": "Large round paillettes in champagne gold, bronze and black, black elastic waistband. Colours: champagne, black.",
+    "image": "photos/2026-11-28/CO-1128-02.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-02.webp"
+    ],
+    "colors": [
+      "champagne",
+      "black"
+    ],
+    "sizes": "",
+    "source": "01-B-1_763d.jpg",
+    "sources": [
+      "01-B-1_763d.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-03",
+    "date": "2026-11-28",
+    "category": "Skirts",
+    "title": "Floral sequin midi skirt",
+    "note": "Multicolour sequin flowers on a black sequin base. Colours: black multicolour.",
+    "image": "photos/2026-11-28/CO-1128-03.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-03.webp"
+    ],
+    "colors": [
+      "black multicolour"
+    ],
+    "sizes": "",
+    "source": "01-C-1_d1c3.jpg",
+    "sources": [
+      "01-C-1_d1c3.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-04",
+    "date": "2026-11-28",
+    "category": "Skirts",
+    "title": "Abstract floral sequin midi skirt",
+    "note": "Burgundy, gold, silver and bronze sequin burst pattern, satin waistband. Colours: burgundy, gold multicolour.",
+    "image": "photos/2026-11-28/CO-1128-04.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-04.webp"
+    ],
+    "colors": [
+      "burgundy",
+      "gold multicolour"
+    ],
+    "sizes": "",
+    "source": "01-D-1_aae4.jpg",
+    "sources": [
+      "01-D-1_aae4.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-05",
+    "date": "2026-11-28",
+    "category": "Skirts",
+    "title": "Matte square paillette midi skirt",
+    "note": "Layered matte square paillettes, elastic waistband. Colours: charcoal grey.",
+    "image": "photos/2026-11-28/CO-1128-05.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-05.webp"
+    ],
+    "colors": [
+      "charcoal grey"
+    ],
+    "sizes": "",
+    "source": "01-E-1_f434.jpg",
+    "sources": [
+      "01-E-1_f434.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-06",
+    "date": "2026-11-28",
+    "category": "Skirts",
+    "title": "Mocha paillette maxi skirt",
+    "note": "Large round paillettes, satin waistband. Colours: mocha.",
+    "image": "photos/2026-11-28/CO-1128-06.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-06.webp"
+    ],
+    "colors": [
+      "mocha"
+    ],
+    "sizes": "",
+    "source": "01-F-1_bbdf.jpg",
+    "sources": [
+      "01-F-1_bbdf.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-07",
+    "date": "2026-11-28",
+    "category": "Skirts",
+    "title": "Asymmetric tassel-hem satin skirt",
+    "note": "Black satin skirt with diagonal hem and long beaded tassels. Colours: black.",
+    "image": "photos/2026-11-28/CO-1128-07.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-07.webp"
+    ],
+    "colors": [
+      "black"
+    ],
+    "sizes": "",
+    "source": "01-G-1_091b.jpg",
+    "sources": [
+      "01-G-1_091b.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-08",
+    "date": "2026-11-28",
+    "category": "Tops",
+    "title": "Embroidered mesh lace shirt",
+    "note": "Sheer grid mesh shirt with large appliqué flowers and beaded centres, balloon sleeves. Colours: burgundy.",
+    "image": "photos/2026-11-28/CO-1128-08.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-08.webp"
+    ],
+    "colors": [
+      "burgundy"
+    ],
+    "sizes": "",
+    "source": "01-H-1_16ae.jpg",
+    "sources": [
+      "01-H-1_16ae.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-09",
+    "date": "2026-11-28",
+    "category": "Tops",
+    "title": "Lily print satin shirt",
+    "note": "Button-front satin shirt with green lily print on a peach base. Colours: peach, green.",
+    "image": "photos/2026-11-28/CO-1128-09.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-09.webp"
+    ],
+    "colors": [
+      "peach",
+      "green"
+    ],
+    "sizes": "",
+    "source": "01-I-1_31b4.jpg",
+    "sources": [
+      "01-I-1_31b4.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-10",
+    "date": "2026-11-28",
+    "category": "Dresses",
+    "title": "Lace ruffle mermaid maxi dress",
+    "note": "Long-sleeve floral lace dress with cascading ruffles and flared hem. Colours: burgundy.",
+    "image": "photos/2026-11-28/CO-1128-10.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-10.webp"
+    ],
+    "colors": [
+      "burgundy"
+    ],
+    "sizes": "",
+    "source": "01-J-1_13e8.jpg",
+    "sources": [
+      "01-J-1_13e8.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-11",
+    "date": "2026-11-28",
+    "category": "Dresses",
+    "title": "Taffeta V-neck peplum maxi dress",
+    "note": "Pleated V-neck bodice, asymmetric peplum, flowing skirt. Colours: lime green, orange, white, pink.",
+    "image": "photos/2026-11-28/CO-1128-11-01.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-11-01.webp",
+      "photos/2026-11-28/CO-1128-11-02.webp",
+      "photos/2026-11-28/CO-1128-11-03.webp",
+      "photos/2026-11-28/CO-1128-11-04.webp"
+    ],
+    "colors": [
+      "lime green",
+      "orange",
+      "white",
+      "pink"
+    ],
+    "sizes": "",
+    "source": "01-K-lime_8bb4.jpg",
+    "sources": [
+      "01-K-lime_8bb4.jpg",
+      "02-K-orange_0bc1.jpg",
+      "03-K-white_46c7.jpg",
+      "04-K-pink_798a.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-12",
+    "date": "2026-11-28",
+    "category": "Sets",
+    "title": "Cowl-neck satin top and wide-leg trouser set",
+    "note": "Sleeveless draped cowl-neck satin top with matching wide-leg trousers. Colours: chartreuse.",
+    "image": "photos/2026-11-28/CO-1128-12.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-12.webp"
+    ],
+    "colors": [
+      "chartreuse"
+    ],
+    "sizes": "",
+    "source": "01-L-1_48b3.jpg",
+    "sources": [
+      "01-L-1_48b3.jpg"
+    ]
+  },
+  {
+    "code": "CO-1128-13",
+    "date": "2026-11-28",
+    "category": "Sets",
+    "title": "Pleated vest and wide-leg trouser set",
+    "note": "Plissé V-neck sleeveless top with gold shell clasp and matching pleated wide-leg trousers. Colours: magenta, black, mustard.",
+    "image": "photos/2026-11-28/CO-1128-13-01.webp",
+    "images": [
+      "photos/2026-11-28/CO-1128-13-01.webp",
+      "photos/2026-11-28/CO-1128-13-02.webp",
+      "photos/2026-11-28/CO-1128-13-03.webp"
+    ],
+    "colors": [
+      "magenta",
+      "black",
+      "mustard"
+    ],
+    "sizes": "",
+    "source": "01-M-magenta_5721.jpg",
+    "sources": [
+      "01-M-magenta_5721.jpg",
+      "02-M-black_1fc0.jpg",
+      "03-M-mustard_9d84.jpg"
+    ]
+  },
+  {
     "code": "CO-1120-01",
     "date": "2026-11-20",
     "category": "Sets",
